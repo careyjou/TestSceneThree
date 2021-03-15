@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9863182125FF25EF0047A323 /* ToolsButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9863182025FF25EF0047A323 /* ToolsButtons.swift */; };
+		9863182625FF260C0047A323 /* ScanLidarButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9863182525FF260C0047A323 /* ScanLidarButtons.swift */; };
+		9863182B25FF26240047A323 /* ChangeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9863182A25FF26240047A323 /* ChangeScannerView.swift */; };
+		9863183025FF26430047A323 /* TopScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9863182F25FF26430047A323 /* TopScannerView.swift */; };
+		9863183525FF265F0047A323 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9863183425FF265F0047A323 /* BlurView.swift */; };
+		9863183A25FF26760047A323 /* Units.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9863183925FF26760047A323 /* Units.swift */; };
+		9863183F25FF268F0047A323 /* ToolButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9863183E25FF268F0047A323 /* ToolButton.swift */; };
+		9863184425FF26AA0047A323 /* TopScannerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9863184325FF26AA0047A323 /* TopScannerButton.swift */; };
+		9863184925FF26C60047A323 /* RoomPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9863184825FF26C60047A323 /* RoomPicker.swift */; };
+		9863184E25FF26DE0047A323 /* LidarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9863184D25FF26DE0047A323 /* LidarView.swift */; };
+		986BC2C125FCB7D40083DAE2 /* geometryShaderLos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986BC2C025FCB7D40083DAE2 /* geometryShaderLos.swift */; };
+		986BC2C625FCB9F60083DAE2 /* geomaddd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986BC2C525FCB9F60083DAE2 /* geomaddd.swift */; };
 		98A426FF25FC85D200A5C6E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A426FE25FC85D200A5C6E7 /* AppDelegate.swift */; };
 		98A4270125FC85D200A5C6E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A4270025FC85D200A5C6E7 /* SceneDelegate.swift */; };
 		98A4270325FC85D200A5C6E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A4270225FC85D200A5C6E7 /* ContentView.swift */; };
@@ -15,6 +27,8 @@
 		98A4270B25FC85D400A5C6E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98A4270925FC85D400A5C6E7 /* LaunchScreen.storyboard */; };
 		98A4271625FC85D500A5C6E7 /* TestSceneThreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A4271525FC85D500A5C6E7 /* TestSceneThreeTests.swift */; };
 		98A4272125FC85D500A5C6E7 /* TestSceneThreeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A4272025FC85D500A5C6E7 /* TestSceneThreeUITests.swift */; };
+		98A4273225FC867300A5C6E7 /* MyLosScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A4273125FC867300A5C6E7 /* MyLosScene.swift */; };
+		98A4273A25FC91DB00A5C6E7 /* srcscene.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 98A4273925FC91DB00A5C6E7 /* srcscene.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +49,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9863182025FF25EF0047A323 /* ToolsButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolsButtons.swift; sourceTree = "<group>"; };
+		9863182525FF260C0047A323 /* ScanLidarButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanLidarButtons.swift; sourceTree = "<group>"; };
+		9863182A25FF26240047A323 /* ChangeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeScannerView.swift; sourceTree = "<group>"; };
+		9863182F25FF26430047A323 /* TopScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopScannerView.swift; sourceTree = "<group>"; };
+		9863183425FF265F0047A323 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		9863183925FF26760047A323 /* Units.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Units.swift; sourceTree = "<group>"; };
+		9863183E25FF268F0047A323 /* ToolButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolButton.swift; sourceTree = "<group>"; };
+		9863184325FF26AA0047A323 /* TopScannerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopScannerButton.swift; sourceTree = "<group>"; };
+		9863184825FF26C60047A323 /* RoomPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomPicker.swift; sourceTree = "<group>"; };
+		9863184D25FF26DE0047A323 /* LidarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LidarView.swift; sourceTree = "<group>"; };
+		986BC2C025FCB7D40083DAE2 /* geometryShaderLos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geometryShaderLos.swift; sourceTree = "<group>"; };
+		986BC2C525FCB9F60083DAE2 /* geomaddd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geomaddd.swift; sourceTree = "<group>"; };
 		98A426FB25FC85D200A5C6E7 /* TestSceneThree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSceneThree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98A426FE25FC85D200A5C6E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98A4270025FC85D200A5C6E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +75,8 @@
 		98A4271C25FC85D500A5C6E7 /* TestSceneThreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSceneThreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98A4272025FC85D500A5C6E7 /* TestSceneThreeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSceneThreeUITests.swift; sourceTree = "<group>"; };
 		98A4272225FC85D500A5C6E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98A4273125FC867300A5C6E7 /* MyLosScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLosScene.swift; sourceTree = "<group>"; };
+		98A4273925FC91DB00A5C6E7 /* srcscene.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = srcscene.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +130,24 @@
 				98A426FE25FC85D200A5C6E7 /* AppDelegate.swift */,
 				98A4270025FC85D200A5C6E7 /* SceneDelegate.swift */,
 				98A4270225FC85D200A5C6E7 /* ContentView.swift */,
+				98A4273125FC867300A5C6E7 /* MyLosScene.swift */,
 				98A4270425FC85D400A5C6E7 /* Assets.xcassets */,
 				98A4270925FC85D400A5C6E7 /* LaunchScreen.storyboard */,
 				98A4270C25FC85D400A5C6E7 /* Info.plist */,
 				98A4270625FC85D400A5C6E7 /* Preview Content */,
+				98A4273925FC91DB00A5C6E7 /* srcscene.scnassets */,
+				986BC2C025FCB7D40083DAE2 /* geometryShaderLos.swift */,
+				986BC2C525FCB9F60083DAE2 /* geomaddd.swift */,
+				9863182025FF25EF0047A323 /* ToolsButtons.swift */,
+				9863182525FF260C0047A323 /* ScanLidarButtons.swift */,
+				9863182A25FF26240047A323 /* ChangeScannerView.swift */,
+				9863182F25FF26430047A323 /* TopScannerView.swift */,
+				9863183425FF265F0047A323 /* BlurView.swift */,
+				9863183925FF26760047A323 /* Units.swift */,
+				9863183E25FF268F0047A323 /* ToolButton.swift */,
+				9863184325FF26AA0047A323 /* TopScannerButton.swift */,
+				9863184825FF26C60047A323 /* RoomPicker.swift */,
+				9863184D25FF26DE0047A323 /* LidarView.swift */,
 			);
 			path = TestSceneThree;
 			sourceTree = "<group>";
@@ -240,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98A4270B25FC85D400A5C6E7 /* LaunchScreen.storyboard in Resources */,
+				98A4273A25FC91DB00A5C6E7 /* srcscene.scnassets in Resources */,
 				98A4270825FC85D400A5C6E7 /* Preview Assets.xcassets in Resources */,
 				98A4270525FC85D400A5C6E7 /* Assets.xcassets in Resources */,
 			);
@@ -266,9 +309,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				986BC2C625FCB9F60083DAE2 /* geomaddd.swift in Sources */,
+				9863184E25FF26DE0047A323 /* LidarView.swift in Sources */,
+				9863183A25FF26760047A323 /* Units.swift in Sources */,
+				9863182625FF260C0047A323 /* ScanLidarButtons.swift in Sources */,
+				9863182125FF25EF0047A323 /* ToolsButtons.swift in Sources */,
 				98A426FF25FC85D200A5C6E7 /* AppDelegate.swift in Sources */,
+				9863183525FF265F0047A323 /* BlurView.swift in Sources */,
+				98A4273225FC867300A5C6E7 /* MyLosScene.swift in Sources */,
+				9863182B25FF26240047A323 /* ChangeScannerView.swift in Sources */,
 				98A4270125FC85D200A5C6E7 /* SceneDelegate.swift in Sources */,
+				9863183F25FF268F0047A323 /* ToolButton.swift in Sources */,
+				9863183025FF26430047A323 /* TopScannerView.swift in Sources */,
 				98A4270325FC85D200A5C6E7 /* ContentView.swift in Sources */,
+				9863184425FF26AA0047A323 /* TopScannerButton.swift in Sources */,
+				9863184925FF26C60047A323 /* RoomPicker.swift in Sources */,
+				986BC2C125FCB7D40083DAE2 /* geometryShaderLos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
